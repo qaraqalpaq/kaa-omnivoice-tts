@@ -1,0 +1,42 @@
+{
+ "kaa_voice_1": {
+  "audio": "kaa_voice_1.wav",
+  "text": "Ózbekstannıń qáwipsiz hám salıstırmalı arzan turistlik baǵdar sıpatında tán alınıwıda sırt elli miymanlardı tartıp atırǵan áhmiyetli faktorlardan biri bolıp esaplanadı.",
+  "source": "https://huggingface.co/datasets/atikuwu/karakalpak-speech-corpus",
+  "source_file": "1297.ogg",
+  "license": "CC-BY-4.0",
+  "changes": "converted from Ogg to 24 kHz mono WAV"
+ },
+ "kaa_voice_2": {
+  "audio": "kaa_voice_2.wav",
+  "text": "Seminar dawamında oqıwshı jaslarǵa isbilermenlik jumıslarınıń tiykarları, biznesti shólkemlestiriw processleri hám bazar ekonomikasınıń zamanagóy talapları haqqında ámeliy túrde maǵlıwmatlar berildi.",
+  "source": "https://huggingface.co/datasets/atikuwu/karakalpak-speech-corpus",
+  "source_file": "71448.ogg",
+  "license": "CC-BY-4.0",
+  "changes": "converted from Ogg to 24 kHz mono WAV"
+ },
+ "kaa_voice_3": {
+  "audio": "kaa_voice_3.wav",
+  "text": "Nızam menen azıq-awqat óniminiń qáwipsizligin támiyinlewdiń tiykarǵı principleri, wákillikli mámleketlik uyımlardıń tarawdaǵı wákillikleri anıq belgilenbekte.",
+  "source": "https://huggingface.co/datasets/atikuwu/karakalpak-speech-corpus",
+  "source_file": "29885.ogg",
+  "license": "CC-BY-4.0",
+  "changes": "converted from Ogg to 24 kHz mono WAV"
+ },
+ "kaa_voice_4": {
+  "audio": "kaa_voice_4.wav",
+  "text": "Ilajǵa universitet professor-oqıtıwshıları, belsendi student-jaslar qatnastı. Eń dáslep ilaj Ózbekstan Respublikası hám Qaraqalpaqstan Respublikası mámleketlik gimnleri menen baslandı.",
+  "source": "https://huggingface.co/datasets/atikuwu/karakalpak-speech-corpus",
+  "source_file": "45404.ogg",
+  "license": "CC-BY-4.0",
+  "changes": "converted from Ogg to 24 kHz mono WAV"
+ },
+ "kaa_voice_5": {
+  "audio": "kaa_voice_5.wav",
+  "text": "Qaraqalpaqstan Respublikası sudınıń puqaralıq isleri boyınsha sudyası Erkin Uteniyazov Orınlaw xatları hám dálillerdi támiyinlew boyınsha sud ámeliyatı atamasında bayanat jasadı.",
+  "source": "https://huggingface.co/datasets/atikuwu/karakalpak-speech-corpus",
+  "source_file": "3923.ogg",
+  "license": "CC-BY-4.0",
+  "changes": "converted from Ogg to 24 kHz mono WAV"
+ }
+}

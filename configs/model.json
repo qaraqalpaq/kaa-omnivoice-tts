@@ -1,0 +1,5 @@
+{
+  "repo_id": "k2-fsa/OmniVoice",
+  "revision": "c5fdb5ccb189668d56333f77ba2629f4cd7535f4",
+  "allow_patterns": ["*.json", "*.safetensors", "*.jinja", "README.md", "audio_tokenizer/*"]
+}

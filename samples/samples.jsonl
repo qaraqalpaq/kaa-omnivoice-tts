@@ -1,0 +1,36 @@
+{"id": "greet", "voice": "kaa_voice_1", "audio": "greet_voice1.mp3", "text": "Assalawma áleykum! Sizge qanday járdem bere alaman?"}
+{"id": "gov", "voice": "kaa_voice_1", "audio": "gov_voice1.mp3", "text": "Pasport alıw ushın mámleketlik xızmetler orayına barıwıńız kerek."}
+{"id": "weather", "voice": "kaa_voice_1", "audio": "weather_voice1.mp3", "text": "Búgin hawa rayı jaqsı, temperatura jigirma bes gradus."}
+{"id": "numbers", "voice": "kaa_voice_1", "audio": "numbers_voice1.mp3", "text": "Telefon nomerim: toqsan bir, júz jigirma úsh, qırq bes, altımıs jeti."}
+{"id": "question", "voice": "kaa_voice_1", "audio": "question_voice1.mp3", "text": "Siz qay jerde jasaysız?"}
+{"id": "thanks", "voice": "kaa_voice_1", "audio": "thanks_voice1.mp3", "text": "Ráhmet, kúnińiz jaqsı ótsin!"}
+{"id": "long", "voice": "kaa_voice_1", "audio": "long_voice1.mp3", "text": "Qaraqalpaqstan Respublikası Ámiwdárya deltasında jaylasqan bolıp, onıń paytaxtı Nókis qalası esaplanadı."}
+{"id": "dialog", "voice": "kaa_voice_1", "audio": "dialog_voice1.mp3", "text": "Aldın arza tolturıń, keyin hújjetlerdi tapsırasız."}
+{"id": "school", "voice": "kaa_voice_1", "audio": "school_voice1.mp3", "text": "Balalar mektepke kúnde saat segizde baradı."}
+{"id": "status", "voice": "kaa_voice_1", "audio": "status_voice1.mp3", "text": "Arzańız qabıl etildi, nátiyjesi úsh kún ishinde málim boladı."}
+{"id": "repeat", "voice": "kaa_voice_1", "audio": "repeat_voice1.mp3", "text": "Keshirersiz, sizdi jaqsı esitpedim, qaytalap aytıp jibere alasız ba?"}
+{"id": "bye", "voice": "kaa_voice_1", "audio": "bye_voice1.mp3", "text": "Bizdiń xızmetimizden paydalanǵanıńız ushın ráhmet."}
+{"id": "greet", "voice": "kaa_voice_2", "audio": "greet_voice2.mp3", "text": "Assalawma áleykum! Sizge qanday járdem bere alaman?"}
+{"id": "gov", "voice": "kaa_voice_2", "audio": "gov_voice2.mp3", "text": "Pasport alıw ushın mámleketlik xızmetler orayına barıwıńız kerek."}
+{"id": "weather", "voice": "kaa_voice_2", "audio": "weather_voice2.mp3", "text": "Búgin hawa rayı jaqsı, temperatura jigirma bes gradus."}
+{"id": "numbers", "voice": "kaa_voice_2", "audio": "numbers_voice2.mp3", "text": "Telefon nomerim: toqsan bir, júz jigirma úsh, qırq bes, altımıs jeti."}
+{"id": "question", "voice": "kaa_voice_2", "audio": "question_voice2.mp3", "text": "Siz qay jerde jasaysız?"}
+{"id": "thanks", "voice": "kaa_voice_2", "audio": "thanks_voice2.mp3", "text": "Ráhmet, kúnińiz jaqsı ótsin!"}
+{"id": "long", "voice": "kaa_voice_2", "audio": "long_voice2.mp3", "text": "Qaraqalpaqstan Respublikası Ámiwdárya deltasında jaylasqan bolıp, onıń paytaxtı Nókis qalası esaplanadı."}
+{"id": "dialog", "voice": "kaa_voice_2", "audio": "dialog_voice2.mp3", "text": "Aldın arza tolturıń, keyin hújjetlerdi tapsırasız."}
+{"id": "school", "voice": "kaa_voice_2", "audio": "school_voice2.mp3", "text": "Balalar mektepke kúnde saat segizde baradı."}
+{"id": "status", "voice": "kaa_voice_2", "audio": "status_voice2.mp3", "text": "Arzańız qabıl etildi, nátiyjesi úsh kún ishinde málim boladı."}
+{"id": "repeat", "voice": "kaa_voice_2", "audio": "repeat_voice2.mp3", "text": "Keshirersiz, sizdi jaqsı esitpedim, qaytalap aytıp jibere alasız ba?"}
+{"id": "bye", "voice": "kaa_voice_2", "audio": "bye_voice2.mp3", "text": "Bizdiń xızmetimizden paydalanǵanıńız ushın ráhmet."}
+{"id": "greet", "voice": "kaa_voice_3", "audio": "greet_voice3.mp3", "text": "Assalawma áleykum! Sizge qanday járdem bere alaman?"}
+{"id": "gov", "voice": "kaa_voice_3", "audio": "gov_voice3.mp3", "text": "Pasport alıw ushın mámleketlik xızmetler orayına barıwıńız kerek."}
+{"id": "weather", "voice": "kaa_voice_3", "audio": "weather_voice3.mp3", "text": "Búgin hawa rayı jaqsı, temperatura jigirma bes gradus."}
+{"id": "numbers", "voice": "kaa_voice_3", "audio": "numbers_voice3.mp3", "text": "Telefon nomerim: toqsan bir, júz jigirma úsh, qırq bes, altımıs jeti."}
+{"id": "question", "voice": "kaa_voice_3", "audio": "question_voice3.mp3", "text": "Siz qay jerde jasaysız?"}
+{"id": "thanks", "voice": "kaa_voice_3", "audio": "thanks_voice3.mp3", "text": "Ráhmet, kúnińiz jaqsı ótsin!"}
+{"id": "long", "voice": "kaa_voice_3", "audio": "long_voice3.mp3", "text": "Qaraqalpaqstan Respublikası Ámiwdárya deltasında jaylasqan bolıp, onıń paytaxtı Nókis qalası esaplanadı."}
+{"id": "dialog", "voice": "kaa_voice_3", "audio": "dialog_voice3.mp3", "text": "Aldın arza tolturıń, keyin hújjetlerdi tapsırasız."}
+{"id": "school", "voice": "kaa_voice_3", "audio": "school_voice3.mp3", "text": "Balalar mektepke kúnde saat segizde baradı."}
+{"id": "status", "voice": "kaa_voice_3", "audio": "status_voice3.mp3", "text": "Arzańız qabıl etildi, nátiyjesi úsh kún ishinde málim boladı."}
+{"id": "repeat", "voice": "kaa_voice_3", "audio": "repeat_voice3.mp3", "text": "Keshirersiz, sizdi jaqsı esitpedim, qaytalap aytıp jibere alasız ba?"}
+{"id": "bye", "voice": "kaa_voice_3", "audio": "bye_voice3.mp3", "text": "Bizdiń xızmetimizden paydalanǵanıńız ushın ráhmet."}

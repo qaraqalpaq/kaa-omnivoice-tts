@@ -1,0 +1,6 @@
+omnivoice==0.2.1
+huggingface_hub
+fastapi
+uvicorn
+soundfile
+numpy

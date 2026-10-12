@@ -1,0 +1,63 @@
+x-kaa-tts: &kaa-tts
+  restart: unless-stopped
+  ports:
+    - "${KAA_TTS_BIND:-127.0.0.1}:${KAA_TTS_PUBLISH_PORT:-7861}:7861"
+  volumes:
+    - kaa-tts-cache:/cache
+
+x-kaa-tts-env: &kaa-tts-env
+  KAA_TTS_MODEL: ${KAA_TTS_MODEL:-k2-fsa/OmniVoice}
+  KAA_TTS_MODEL_REVISION: ${KAA_TTS_MODEL_REVISION:-}
+  KAA_TTS_DTYPE: ${KAA_TTS_DTYPE:-float32}
+  KAA_TTS_CONCURRENCY: ${KAA_TTS_CONCURRENCY:-1}
+  KAA_TTS_MAX_QUEUE: ${KAA_TTS_MAX_QUEUE:-8}
+  KAA_TTS_MAX_CHARS: ${KAA_TTS_MAX_CHARS:-400}
+  KAA_TTS_RATE_LIMIT: ${KAA_TTS_RATE_LIMIT:-0}
+  KAA_TTS_RATE_WINDOW_S: ${KAA_TTS_RATE_WINDOW_S:-600}
+  KAA_TTS_TRUST_PROXY: ${KAA_TTS_TRUST_PROXY:-1}
+  KAA_TTS_NOTE: ${KAA_TTS_NOTE:-}
+
+services:
+  kaa-tts:
+    <<: *kaa-tts
+    profiles: ["cpu"]
+    image: kaa-omnivoice-tts:cpu
+    build:
+      context: .
+      args:
+        DEVICE: cpu
+    container_name: kaa-tts
+    cpus: ${KAA_TTS_CPUS:-4}
+    mem_limit: ${KAA_TTS_MEMORY:-5g}
+    memswap_limit: ${KAA_TTS_MEMORY:-5g}
+    environment:
+      <<: *kaa-tts-env
+      KAA_TTS_DEVICE: cpu
+      KAA_TTS_NUM_STEP: ${KAA_TTS_NUM_STEP:-8}
+      KAA_TTS_THREADS: ${KAA_TTS_THREADS:-4}
+      KAA_TTS_ESTIMATE_S: ${KAA_TTS_ESTIMATE_S:-110}
+
+  kaa-tts-gpu:
+    <<: *kaa-tts
+    profiles: ["gpu"]
+    image: kaa-omnivoice-tts:gpu
+    build:
+      context: .
+      args:
+        DEVICE: cuda
+    container_name: kaa-tts-gpu
+    environment:
+      <<: *kaa-tts-env
+      KAA_TTS_DEVICE: cuda:0
+      KAA_TTS_NUM_STEP: ${KAA_TTS_NUM_STEP_GPU:-32}
+      KAA_TTS_ESTIMATE_S: ${KAA_TTS_ESTIMATE_S_GPU:-5}
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+
+volumes:
+  kaa-tts-cache:

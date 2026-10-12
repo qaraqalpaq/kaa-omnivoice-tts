@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="kaa">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Qaraqalpaqsha TTS</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <header>
+    <h1>Qaraqalpaqsha TTS</h1>
+    <p class="sub">OmniVoice · tekstti dawısqa aylandırıw</p>
+  </header>
+  <p id="note" class="note" hidden></p>
+  <section id="samples" hidden>
+    <h2>Tayın úlgiler</h2>
+    <div id="sampleGroups" class="groups"></div>
+  </section>
+  <form id="form">
+    <label for="text">Tekst <span class="hint">latın yamasa kirill</span></label>
+    <textarea id="text" rows="5" required></textarea>
+    <div class="counter"><span id="count">0</span> / <span id="max">0</span></div>
+    <div class="row">
+      <label>Dawıs <select id="voice"></select></label>
+      <label>Tezlik <input id="speed" type="range" min="0.7" max="1.3" step="0.05" value="1"> <output id="speedValue">1.00×</output></label>
+    </div>
+    <button id="submit" type="submit">Sóyle</button>
+  </form>
+  <section id="status" class="status" hidden>
+    <div class="bar"><div id="progress"></div></div>
+    <p id="statusText"></p>
+  </section>
+  <section id="result" hidden>
+    <audio id="player" controls></audio>
+    <a id="download" download="qaraqalpaqsha.wav">Júklep alıw</a>
+  </section>
+  <section>
+    <h2>Mısallar</h2>
+    <div id="examples" class="examples"></div>
+  </section>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
